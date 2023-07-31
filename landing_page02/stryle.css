@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+*
+{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.corpo-gradiente{
+    width: 634px;
+   height: 634px;
+   flex-shrink: 0;
+   border-radius: 634px;
+   background: #52BDAA;
+   filter: blur(359px);
+   position: relative;
+   left: -156px;
+   top: -108px;
+       }
+   
+body{
+    font-size: 100%;
+
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    position:absolute;
+    top:-10px;
+}
+
+.cabeçalho-menu{
+    position: relative;
+    left: 757px;
+
+}
+.cabeçalho-menu-item {
+    font-family: Inter;
+    color: #A6A6A6;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+button{
+    height: 36px;
+    width: 206px;
+    color: white;
+    position: absolute;
+    top: 782px;
+    left: 153px;
+    display: inline-flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: #54BD95;
+    border: none;
+    font-family: inter;
+}
+.conteudo-secundario-titulo{
+    color: #191A15;
+    text-align: center;
+    font-size: 38px;
+    font-family: Inter;
+    font-weight: 700;
+    position: relative;
+    top: -115px;
+    left: 42px; 
+}
+.conteudo-principal-escrito-subtitulo{
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 30px;
+    position: absolute;
+    top: 638px;
+    left: 119px;
+}
+
+.conteudo-principal-escrito-titulo{
+display: flex;
+width: 555px;
+flex-direction: column;
+flex-shrink: 0;
+color: #191A15;
+font-size: 80px;
+font-family: Inter;
+font-weight: 600;
+line-height: 90px;
+position: relative;
+top: -493px;
+left: 115px;
+
+}
+.conteudo-ilustração{
+width: 552px;
+height: 48px;
+position: relative;
+top: -472px;
+left: 115px;
+}
+
+
+.conteudo-principal-imagem{
+    position: absolute;
+    top: 179px;
+    left: 724px;
+}
+
+.cabeçalho-imagem {
+height: 29px;
+position: relative;
+left: 100px;
+}
+.cabeçalho-menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+
+ .rodape-iamgem{
+    position: absolute;
+    top: 1076px;
+    left: 128px;
+
+ }
+ .rodape{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+ }
+.conteudo-sengunda-pag{
+    position: absolute;
+    background: #161C28; 
+    top: 1255px;
+    border: 67px ;
+    width:  1351px;
+    height: 1217px;
+}
+
+form {
+
+    display: inline-flex;
+    padding: 390px 86px 66px 86px;
+   /* padding: 40px 86px 66px 86px;*/
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #222938;
+    position: absolute;
+    left: 676px;
+}
+.conteudo-sengunda-pag-titulo {
+    color: #FFF;
+    font-size: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width: 589px;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
+    top: 100px;
+    left: 63px;
+}
+
+    textarea#mensagem{
+        width: 440px;
+        height: 80px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FFF;
+
+    }
+
+    input#email{
+        width: 440px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FFF;
+        border: none;
+
+    }
+
+    input{
+        width: 440px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #54BD95;
+        border: none;
+        color: #FFF;
+        font-size: 16px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    label{
+        display: flex;
+        width: 51px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+
+    .iniciar-form{
+        display: flex;
+        width: 198px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        font-size: 30px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        top: 127px;
+        left: 198px;
+
+    }
+
+    .img-form{
+        position: absolute;
+        top: 35px;
+        left: 251px;
+    }
+
+    .subtitulo2{
+        display: flex;
+        width: 461px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #A6A6A6;
+        font-size: 18px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        position: absolute;
+        top: 434px;
+        left: 71px;
+    }
+    
+
+    .subtitulo1{        
+        display: flex;
+        width: 461px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #A6A6A6;
+        font-size: 18px;
+        font-family: Inter;
+        font-style: normal;
+        position: relative;
+        font-weight: 500;
+        line-height: 30px;
+        top: 245px;
+        left: 71px;
+    }
+
+    .img-risco{
+        position: absolute;
+        top: 364px;
+        left: 74px;
+    }
+    
+
+    .label-email{
+        position: absolute;
+        top: 175px;
+    left: 85px;
+
+    }
+    .input-email{
+        position: absolute;
+        top: 211px;
+        left: 85px;
+
+    }
+    .label-msg{
+        position: absolute;
+        top: 274px;
+        left: 85px;
+
+    }
+    .INPUT-MSG{
+        position: absolute;
+        top: 314px;
+        left: 85px;
+    }
+       
+    .img-final{
+        position: absolute;
+        top: 827px;
+        left: 64px;
+    }
+
+    .final-titulo{
+        display: flex;
+        width: 461px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #A6A6A6;
+        font-size: 18px;
+        font-family: Inter;
+        font-style: normal;
+        position: relative;
+        font-weight: 500;
+        line-height: 30px;
+        left: 63px;
+        top: 791px;
+
+    }
+
+    .img-final-btn{
+        position: relative;
+        top: 621px;
+        left: 54px;
+
+    }
+        .email-fn{
+            border-radius: 103px;
+            width: 397px;
+            position: absolute;
+            left: 58px;
+            top: 921px;
+            background: none;
+            border: 1px solid #ccc;
+        }
+        
+
+        .enviar-button {
+            
+            right: 444px;
+            transform: translateY(-50%) scale(0.9);
+            width: 2px;
+            height: 55px;
+            border-radius: 80%;
+            background-color: #54BD95;
+            border: none;
+            position: absolute;
+            left: 391px;
+            top: 951px;
+        }
+        
+        .enviar-button::before {
+            content: "\f178"; /* Ícone de seta para direita do Font Awesome (pode variar dependendo da versão) */
+            font-family: "Font Awesome 5 Free"; /* Caso esteja usando o Font Awesome */
+            font-weight: 900;
+            font-size: 20px;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }    
+
+        .email-finall input[type="email"] {
+            border: 1px solid #ccc;
+            padding: 24px;
+            font-size: 16px;
+            border-radius: 98px;
+            color: #A6A6A6; /* Nova cor para o texto do campo de e-mail */
+            font-family: Inter, sans-serif; /* Nova fonte do texto do campo de e-mail */
+        }
+        
+        .email-finall input[type="email"]::placeholder {
+            /* Estilos para o texto de placeholder do campo de e-mail */
+            color: #A6A6A6;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+        }
+        .email-label {
+            color: #A6A6A6;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            position: absolute;
+            top: 50%;
+            left: 16px;
+            transform: translateY(-50%);
+            pointer-events: none; /* Evita que a label seja clicável e interfira no input */
+        }
+        
+        .email-finall .email-fn {
+            border: 1px solid #ccc;
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 5px;
+            color: #A6A6A6;
+            font-family: Inter, sans-serif;
+        }
+
+        .email-fn{
+            border: 1px solid #ccc;
+            padding: 24px;
+            font-size: 16px;
+            border-radius: 60px;
+            color: #A6A6A6;
+            font-family: Inter, sans-serif;
+
+        }
+        .email-finall{
+            position: absolute;
+            left: -888px;
+        }
+
+        .cabeçalho-menu-item:hover {
+            color:  #54BD95; }
